@@ -22,10 +22,26 @@ body {
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  align-items: left;
+  flex-direction: column;
   margin: 100px auto;
   padding: 20px;
+}
+.about-section-styles ul {
+  /* border: 1px solid purple; */
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.list-items li {
+  list-style: none;
+  margin: 10px;
+}
+
+.list-items li:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 .footer-styles {
@@ -47,8 +63,15 @@ body {
   font-family: "Pacifico", cursive;
   font-size: 2.5rem;
 }
+
 .container img {
   /* border: 1px solid purple; */
   width: 500px;
   height: 300px;
+}
+.about-me-text {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: black;
 }
